@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+header .inner{
+  padding: 0 20px;
+  max-width: 1640px;
+  margin: auto;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  padding: 30px 0;
+}
+header .inner{
+  display: flex;
+  justify-content: space-between;
+}
+header .menu img, header .search img{
+  width: 30px;
+  height: 30px;
+}
+header .inner h1{
+  font-family: 'Pretendard-Regular';
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+header .inner .gnb-wrap{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 50px 50px;
+  width: 100%;
+  height: 100%;
+}
+header .inner .gnb-wrap li{
+  margin-bottom: 100px;
+}
+header .inner .gnb-wrap li a{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.gnb-wrap{
+  position: relative;
+  display: none;
+}
+.gnb-wrap li:nth-child(5){
+  color: #4F546C;
+}
+.gnb-wrap .inner .img-box img{
+  width: 500px;
+  height: 753px;
+}
+.gnb-wrap .inner .close{
+  position: absolute;
+  top: 10px;
+  right: 65px;
+  cursor: pointer;
+}
+header .inner .gnb-wrap li:hover a{
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.txt-box2 ul{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 70px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.gnb-wrap .inner .txt-box2 ul li a{
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Pretendard-Regular';
+  color: #777;
+}
+
+
+header .search-box{
+  display: none;
+  width: 100%;
+  height: 50px;
+  background-color: #eee;
+  padding: 15px;
+}
+header .search-box .inner{
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+}
+header .search-box p{
+  font-size: 20px;
+  color: #777;
+  font-weight: 700;
+  font-family: 'Pretendard-Regular';
+}
+header .search-box img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pretendard-Regular';
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  margin-top: 300px;
+}
+
+
+.input-field {
+  width: 500px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #d9d9d9;
+  border: none;
+  font-size: 14px;
+  font-family: 'Pretendard-Regular';
+}
+
+.login-btn {
+  width: 500px;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-family: 'Pretendard-Regular';
+}
+.login-btn:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.kakao-btn {
+  width: 500px;
+  padding: 15px;
+  background-color: #ffe812;
+  color: #371D1E;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-family: 'Pretendard-Regular';
+}
+
+.kakao-btn img {
+  height: 20px;
+}
+
+.naver-btn {
+  width: 500px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #1ec800;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-family: 'Pretendard-Regular';
+}
+.naver-btn img{
+  height: 20px;
+}
+
+
+.login-links {
+  margin-top: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Pretendard-Regular';
+}
+
+.login-links a {
+  text-decoration: none;
+  color: gray;
+  font-family: 'Pretendard-Regular';
+}
+.login-links a:hover{
+  color: #000;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+
+footer{
+  margin-top: 200px; 
+  margin-bottom: 100px;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+footer ul li a{
+  font-size: 14px;
+  color: #777;
+  font-family: 'Pretendard-Regular';
+}
+footer .f-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  width: 150px;
+  height: 150px;
+}
+footer p{
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  font-family: 'Pretendard-Regular';
+}
+
+footer ul li a:hover{
+  color: #000;
+  font-weight: 700;
+}

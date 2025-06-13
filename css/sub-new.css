@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+header .inner{
+  padding: 0 20px;
+  max-width: 1640px;
+  margin: auto;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  padding: 30px 0;
+}
+header .inner{
+  display: flex;
+  justify-content: space-between;
+}
+header .back img{
+  width: 100%;
+  height: 15px;
+}
+header .search img{
+  width: 30px;
+  height: 30px;
+}
+header .inner h1{
+  font-family: 'Pretendard-Regular';
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+header .inner .gnb-wrap{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 50px 50px;
+  width: 100%;
+  height: 100%;
+}
+header .inner .gnb-wrap li{
+  margin-bottom: 100px;
+}
+header .inner .gnb-wrap li a{
+  font-size: 30px;
+  font-weight: 700;
+}
+header .search-box{
+  display: none;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  padding: 15px;
+}
+header .search-box .inner{
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+}
+header .search-box p{
+  font-size: 20px;
+  color: #777;
+  font-weight: 700;
+}
+header .search-box img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.main-visaul img{
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+
+.newarrivals{
+  margin-top: 100px;
+}
+.newarrivals .inner{
+  text-align: center;
+  padding: 0 100px;
+}
+.newarrivals h2{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Pretendard-Regular';
+  display: block;
+  border-bottom: 1px solid #777;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+.newarrivals .inner .img{
+  width: 300px;
+  height: 400px;
+}
+.newarrivals .inner img{
+  width: 100%;
+}
+.newarrivals .inner .txt{
+  text-align: left;
+  margin-top: 15px;
+}
+.newarrivals .inner ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #777;
+}
+.newarrivals .inner ul li{
+  margin-bottom: 50px;
+}
+.newarrivals .inner ul li .name{
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Pretendard-Regular';
+  margin-bottom: 5px;
+}
+.newarrivals .inner ul li .price{
+  font-size: 11px;
+  margin-bottom: 5px;
+  font-family: 'Pretendard-Regular';
+  color: #777;
+  text-decoration: line-through;
+}
+.newarrivals .inner ul li .sale{
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Pretendard-Regular';
+}
+.newarrivals .inner ul li .sale span{
+  color: red;
+  font-family: 'Pretendard-Regular';
+}
+.newarrivals .inner ul li .none{
+  font-size: 11px;
+  color: transparent;
+}
+.newarrivals .inner ul li .name:hover{
+  color: #ddd;
+  transition: all 0.5s;
+}
+
+
+footer{
+  margin-top: 100px; 
+  margin-bottom: 100px;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+footer ul li a{
+  font-size: 14px;
+  color: #777;
+  font-family: 'Pretendard-Regular';
+}
+footer .f-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  width: 150px;
+  height: 150px;
+}
+footer p{
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  font-family: 'Pretendard-Regular';
+}
+
+footer ul li a:hover{
+  color: #000;
+  font-weight: 700;
+}
+
+
+
+.gotop{ 
+  cursor: pointer; 
+  position: fixed; 
+  width: 80px; 
+  height: 80px; 
+  right: 50px; 
+  bottom: 50px; 
+  border-radius: 50%; 
+  background: #4F546C; 
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2); 
+  color: #fff; 
+  font-weight: 900; 
+  text-align: center; 
+  padding: 35px 0 0; 
+  z-index: 4; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
