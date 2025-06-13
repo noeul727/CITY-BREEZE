@@ -298,6 +298,8 @@ footer ul li a:hover{
  .detail .inner .top-box .txt{
    position: static;
    display: block;
-   
+ }
+ .detail .inner{
+  display: block;
  }
 }
