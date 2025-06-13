@@ -140,6 +140,11 @@ header .search-box img{
   height: 760px;
   object-fit: cover;
 }
+.detail .inner .top-box .txt{
+  position: fixed;
+  left: 800px;
+  padding-left: 50px;
+}
 .detail .inner .top-box .txt .name{
   font-size: 24px;
   font-family: 'Pretendard-Regular';
