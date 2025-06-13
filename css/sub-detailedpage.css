@@ -202,8 +202,9 @@ header .search-box img{
 .detail-img{
   width: 800px;
   padding: 200PX 100px;
+
 }
-.detail-img img{
+.detail-img .inner img{
   display: block;
   width: 800px;
   object-fit: cover;
