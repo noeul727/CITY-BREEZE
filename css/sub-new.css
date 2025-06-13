@@ -204,6 +204,16 @@ footer ul li a:hover{
   z-index: 4; 
 }
 
+@media (max-width:768px){
+  footer ul li a{
+   font-size: 10px;
+   color: #777;
+   font-family: 'Pretendard-Regular';
+ }
+}
+
+
+
 
 
 

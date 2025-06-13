@@ -287,3 +287,17 @@ footer ul li a:hover{
   padding: 35px 0 0; 
   z-index: 4; 
 }
+
+@media (max-width:768px){
+  footer ul li a{
+   font-size: 10px;
+   color: #777;
+   font-family: 'Pretendard-Regular';
+ }
+
+ .detail .inner .top-box .txt{
+   position: static;
+   display: block;
+   
+ }
+}

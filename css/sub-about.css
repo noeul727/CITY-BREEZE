@@ -155,6 +155,33 @@ main .inner .sub-img img{
   width: 100%;
 }
 
+@media (max-width:768px){
+  main .inner{
+    display: block;
+  }
+  main .inner .sub-txt p{
+   text-align: center;
+   line-height: 1.5;
+   font-size: 14px;
+   font-family: 'Pretendard-Regular';
+ }
+ main .inner .sub-txt{
+   width: 360px;
+   height: 399px;
+   align-items: center;
+   justify-content: center;
+ }
+ main .inner .sub-img{
+   width: 360px;
+   height: 540px;
+   margin-top: 300px;
+ }
+ main .inner .sub-txt img{
+   width: 90px;
+   height: 90px;
+ }
+}
+
 
 
 footer{
@@ -195,12 +222,13 @@ footer ul li a:hover{
 }
 
 
-
-
-
-
-
-
+@media (max-width:768px){
+  footer ul li a{
+   font-size: 10px;
+   color: #777;
+   font-family: 'Pretendard-Regular';
+ }
+}
 
 
 
