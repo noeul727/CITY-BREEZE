@@ -201,6 +201,7 @@ header .search-box img{
   margin-bottom: 10px;
   cursor: pointer;
   font-family: 'Pretendard-Regular';
+  margin-bottom: 200px;
 }
 .buy:hover{
   opacity: 0.7;
